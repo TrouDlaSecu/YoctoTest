@@ -1,0 +1,14 @@
+/home/flo/Documents/test/trying/out/CMakeFiles/install/strip.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/install/local.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/edit_cache.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/install.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/list_install_components.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/rebuild_cache.dir
+/home/flo/Documents/test/trying/out/CMakeFiles/trying.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/install/strip.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/install/local.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/install.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/list_install_components.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/rebuild_cache.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/edit_cache.dir
+/home/flo/Documents/test/trying/out/test/CMakeFiles/test.dir

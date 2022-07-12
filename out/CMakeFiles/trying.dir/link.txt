@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/trying.dir/HelloWorld.c.o  -o trying  test/libtest.a 
