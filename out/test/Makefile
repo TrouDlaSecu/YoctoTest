@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/flo/Documents/test/trying/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/flo/Documents/test/trying/out
+CMAKE_BINARY_DIR = /home/flo/Documents/test/trying/build/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/flo/Documents/test/trying/out && $(CMAKE_COMMAND) -E cmake_progress_start /home/flo/Documents/test/trying/out/CMakeFiles /home/flo/Documents/test/trying/out/test/CMakeFiles/progress.marks
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/flo/Documents/test/trying/out/CMakeFiles 0
+	cd /home/flo/Documents/test/trying/build/out && $(CMAKE_COMMAND) -E cmake_progress_start /home/flo/Documents/test/trying/build/out/CMakeFiles /home/flo/Documents/test/trying/build/out/test/CMakeFiles/progress.marks
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/flo/Documents/test/trying/build/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/flo/Documents/test/trying/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/flo/Documents/test/trying/build/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test.dir/rule:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
 .PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ test: test/CMakeFiles/test.dir/rule
 
 # fast build rule for target.
 test/fast:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 test.o: test.c.o
@@ -177,7 +177,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.o
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -186,7 +186,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.i
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -195,7 +195,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	cd /home/flo/Documents/test/trying/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.s
+	cd /home/flo/Documents/test/trying/build/out && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.s
 .PHONY : test.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/flo/Documents/test/trying/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/flo/Documents/test/trying/build/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

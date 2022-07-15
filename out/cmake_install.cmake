@@ -52,7 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/flo/Documents/test/trying/out/trying")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/flo/Documents/test/trying/build/out/trying")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/trying" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/trying")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -63,7 +63,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/flo/Documents/test/trying/out/test/cmake_install.cmake")
+  include("/home/flo/Documents/test/trying/build/out/test/cmake_install.cmake")
 
 endif()
 
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/flo/Documents/test/trying/out/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/flo/Documents/test/trying/build/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

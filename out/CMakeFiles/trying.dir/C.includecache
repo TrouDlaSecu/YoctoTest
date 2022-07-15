@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../test/test.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+
+/home/flo/Documents/test/trying/build/HelloWorld.c
+test.h
+/home/flo/Documents/test/trying/build/test.h
+

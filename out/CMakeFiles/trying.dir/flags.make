@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/flo/Documents/test/trying/out -I/home/flo/Documents/test/trying/build/test 
+C_INCLUDES = -I/home/flo/Documents/test/trying/build/out -I/home/flo/Documents/test/trying/build/test 
 
